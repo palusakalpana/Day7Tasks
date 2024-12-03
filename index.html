@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Album</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(222, 170, 209);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #065386;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .album-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            max-width: 800px;
+            width: 100%;
+        }
+        .album {
+            border: 2px solid #065386;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .album img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #065386;
+        }
+        .album a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .album:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>My SoundBook of smiles</h1>
+    <table border = "1">
+        <tr>
+            <td><a href="/Day7/godavari.html">
+        <img src="https://naasongs.com.co/wp-content/uploads/2018/11/Godavari-2006jpeg.jpg" alt="Godavari Movie Poster" height="200" width="200">
+
+            </a></td>
+            <td><a href="/Day7/SuryaSonOfKrishnan.html">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy9vZ8A4BGMJCWCJiWTRXlqwksq3VN9WqQLD_guMhw0agm75dzgZy1e65QBG5k4IgiIavbRxLnQBaafPQ7PUag636lLuOwtOzWgUIEY3ZLCcvLicViXhmz3CwM9n-f-65UkAv9pxzZ0HY/s280/Surya.png" alt="Surya S/o Krishnan Movie Poster" height="200" width="200">
+
+            </a></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/Day7/Anand.html">
+        <img src="https://southmp3.org/wp-content/uploads/2023/08/Anand-2004.jpg" alt="Anand Movie Poster" height="200" width="200">
+
+                </a>
+            </td>
+            <td>
+                <a href="/Day7/Orange.html">
+        <img src="https://c.saavncdn.com/105/Orange-Telugu-2006-20210624180302-500x500.jpg" height="200" width="200">
+
+                </a>
+            </td>
+        </tr>
+    </table>
+</center>
+</body>
+</html>
